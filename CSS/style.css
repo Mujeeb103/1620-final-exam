@@ -4,6 +4,16 @@
     font-family: 'RocknRoll One', sans-serif;
 }
 
-h1 {
-    font-family: 'Indie Flower', cursive;
-}
+.container { 
+    display: grid;
+    grid-template-rows: 4.5rem 2fr 10rem 2rem;
+    grid-template-columns: minmax(0px, auto) 1fr;
+    grid-template-areas: 
+    'h h'
+    'm m'
+    's s'
+    'f f';
+    width: 100vw;
+    height: 100vh;
+   
+   }
