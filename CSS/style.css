@@ -76,3 +76,23 @@ h2 {
          text-align: center;
          padding-bottom: 20px;
      }
+
+     @media screen and (min-width:650px) {
+        container { 
+            display: grid;
+            grid-template-rows: 4.5rem 2fr 10rem 2rem;
+            grid-template-columns: minmax(0px, auto) 1fr;
+            grid-template-areas: 
+            'h h h'
+            'm m m'
+            's s s'
+            'f f f';
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .shop-item {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
