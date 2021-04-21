@@ -17,3 +17,27 @@
     height: 100vh;
    
    }
+
+   header {
+    grid-area: h;
+    background-color: #AFEEEE;
+    
+    
+   }
+  
+   main {
+    grid-area: m;
+    background-color: #AFEEEE;
+   
+    }
+  
+    .cart {
+        grid-area: s;
+        background-color: #DDA0DD;
+  
+    }
+  
+    footer {
+        grid-area: f;
+        background-color: aqua;
+    }
