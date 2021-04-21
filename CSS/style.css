@@ -65,3 +65,14 @@ h2 {
       nav {
         text-align: center;
       }
+
+     .cart-row {
+         display: flex;
+         text-align: center;
+         justify-content: space-evenly;
+     } 
+
+     .section-header {
+         text-align: center;
+         padding-bottom: 20px;
+     }
