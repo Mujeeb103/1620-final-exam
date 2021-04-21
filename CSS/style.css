@@ -4,6 +4,14 @@
     font-family: 'RocknRoll One', sans-serif;
 }
 
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+    text-align: center;
+}
+
 .container { 
     display: grid;
     grid-template-rows: 4.5rem 2fr 10rem 2rem;
